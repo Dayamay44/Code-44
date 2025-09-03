@@ -184,7 +184,7 @@ Module(
 • \`.testalive\` - Test current alive message
 
 *Quick Example:*
-\`.setalive Hey $user! $botname is online!
+\`.setalive Hey $user! CODE 44 is online!
 _Version: $version_
 _Uptime: $uptime_
 _Users: $users_ $pp\`
@@ -346,9 +346,9 @@ Module(
       botImageLink = path.join(__dirname, "utils", "images", "default.png");
     }
 
-    const menu = `╭═══〘 \`${botName}\` 〙═══⊷❍
+    const menu = `╭═══〘 \`C O D E 4 4\` 〙═══⊷❍
 ┃${star}╭──────────────
-┃${star}│
+┃${star}│       Ram Ram Bhaiyo & Behno
 ┃${star}│ _*\`Owner\`*_ : ${botOwner}
 ┃${star}│ _*\`User\`*_ : ${message.senderName.replace(/[\r\n]+/gm, "")}
 ┃${star}│ _*\`Mode\`*_ : ${MODE}
@@ -360,7 +360,7 @@ Module(
 ┃${star}│
 ┃${star}│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃${star}│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃${star}│   ${botName}
+┃${star}│  C  O  D  E  4  4
 ┃${star}│
 ┃${star}╰───────────────
 ╰═════════════════⊷
@@ -560,3 +560,4 @@ Module(
     await parseAlive(message, aliveMessage);
   }
 );
+
