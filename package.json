@@ -1,11 +1,11 @@
 {
-  "name": "raganork-md",
+  "name": "CODE 44",
   "version": "6.1.56",
   "description": "A multi functional wa bot.",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "pm2 start index.js --name raganork-md --attach"
+    "start": "pm2 start index.js --name CODE 44 --attach"
   },
   "keywords": [
     "whatsapp",
@@ -13,7 +13,7 @@
     "baileys",
     "raganork"
   ],
-  "author": "Sourav K",
+  "author": "DAYA",
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@vitalets/google-translate-api": "^9.2.1",
@@ -42,3 +42,4 @@
     "youtube-sr": "^4.3.11"
   }
 }
+
