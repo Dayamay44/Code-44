@@ -14,7 +14,6 @@
     "raganork"
   ],
   "author": "DAYA",
-  "license": "GPL-3.0-or-later",
   "dependencies": {
     "@vitalets/google-translate-api": "^9.2.1",
     "acrcloud": "^1.4.0",
@@ -42,4 +41,5 @@
     "youtube-sr": "^4.3.11"
   }
 }
+
 
